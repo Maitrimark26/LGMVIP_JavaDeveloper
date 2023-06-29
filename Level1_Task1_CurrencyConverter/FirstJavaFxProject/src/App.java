@@ -2,7 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
+
+
 import javax.swing.JOptionPane;
+
 /**
  *
  * @author kisha
@@ -74,7 +77,7 @@ public class App extends javax.swing.JFrame {
         });
 
         txtTo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        txtTo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Indian Rupee", "USD", "Euro", "British Dollar", "Australian Dollar", "Singapore Dollar", "Japanese Yen", "Swiss France", " ", " " }));
+        txtTo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Indian Rupee", "USD", "Euro", "British Pound", "Australian Dollar", "Singapore Dollar", "Japanese Yen", "Swiss France", " ", " " }));
         txtTo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtToActionPerformed(evt);
@@ -282,6 +285,12 @@ else if(txtFrom.getSelectedItem().toString()=="Indian Rupee" && txtTo.getSelecte
     
 }
 
+//********************************** ************************************
+
+
+
+
+
 else if(txtFrom.getSelectedItem().toString()=="USD" && txtTo.getSelectedItem().toString()=="British Pound")
     
 {
@@ -296,6 +305,16 @@ else if(txtFrom.getSelectedItem().toString()=="British Pound" && txtTo.getSelect
     JOptionPane.showMessageDialog(this,"The Amount is :  "+convert.toString());
     
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -344,6 +363,10 @@ else if(txtFrom.getSelectedItem().toString()=="Australian Dollar" && txtTo.getSe
     JOptionPane.showMessageDialog(this,"The Amount is :  "+convert.toString());
     
 }
+
+
+
+
 
 
 else if(txtFrom.getSelectedItem().toString()=="Australian Dollar" && txtTo.getSelectedItem().toString()=="Singapore Dollar")
@@ -396,6 +419,40 @@ else if(txtFrom.getSelectedItem().toString()=="Swiss France" && txtTo.getSelecte
     JOptionPane.showMessageDialog(this,"The Amount is :  "+convert.toString());
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // TODO add your handling code here:
     }                                       
