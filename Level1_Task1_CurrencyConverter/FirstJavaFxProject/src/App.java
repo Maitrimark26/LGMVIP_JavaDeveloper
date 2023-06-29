@@ -285,11 +285,6 @@ else if(txtFrom.getSelectedItem().toString()=="Indian Rupee" && txtTo.getSelecte
     
 }
 
-//********************************** ************************************
-
-
-
-
 
 else if(txtFrom.getSelectedItem().toString()=="USD" && txtTo.getSelectedItem().toString()=="British Pound")
     
@@ -305,17 +300,6 @@ else if(txtFrom.getSelectedItem().toString()=="British Pound" && txtTo.getSelect
     JOptionPane.showMessageDialog(this,"The Amount is :  "+convert.toString());
     
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 else if(txtFrom.getSelectedItem().toString()=="USD" && txtTo.getSelectedItem().toString()=="Euro")
@@ -364,11 +348,6 @@ else if(txtFrom.getSelectedItem().toString()=="Australian Dollar" && txtTo.getSe
     
 }
 
-
-
-
-
-
 else if(txtFrom.getSelectedItem().toString()=="Australian Dollar" && txtTo.getSelectedItem().toString()=="Singapore Dollar")
     
 {
@@ -404,7 +383,6 @@ else if(txtFrom.getSelectedItem().toString()=="Japanese Yen" && txtTo.getSelecte
     
 }
 
-
 else if(txtFrom.getSelectedItem().toString()=="Japanese Yen" && txtTo.getSelectedItem().toString()=="Swiss France")
     
 {
@@ -420,41 +398,7 @@ else if(txtFrom.getSelectedItem().toString()=="Swiss France" && txtTo.getSelecte
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // TODO add your handling code here:
+    // TODO add your handling code here:
     }                                       
 
     private void txtAmountActionPerformed(java.awt.event.ActionEvent evt) {                                          
